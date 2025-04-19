@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Crafty+Girls&family=Merienda:wght@300..900&family=Nosifer&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&family=Staatliches&family=Trade+Winds&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor1:#26EBAF;
+    --cor2:#26EB29;
+    --cor3:#EB2D26;
+    --cor4:#166B51;
+    --cor5:#18701A;
+    --fonte1: 'Oswald', Arial, Helvetica, sans-serif;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: white;
+}
+
+header{
+    font-family: var(--fonte1);
+    text-align: center;
+    padding: 40px;
+    background-image: linear-gradient(to left, var(--cor1), var(--cor5));
+    
+}
+
+section{
+    
+}
+
+.nos{
+    padding-top: 10px;
+}
