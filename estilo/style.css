@@ -5,7 +5,7 @@
 :root{
     --cor1:#26EBAF;
     --cor2:#26EB29;
-    --cor3:#EB2D26;
+    --cor3:#8c0500;
     --cor4:#166B51;
     --cor5:#18701A;
     --fonte1: 'Oswald', Arial, Helvetica, sans-serif;
@@ -21,6 +21,10 @@ html, body{
     min-height: 100vh;
     background-color: white;
 }
+main{
+    min-width: 300px;
+    margin: auto;
+}
 
 header{
     font-family: var(--fonte1);
@@ -31,9 +35,60 @@ header{
 }
 
 section{
-    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10px;
+}
+
+section > ul{
+    padding-left: 30px;
 }
 
 .nos{
     padding-top: 10px;
+}
+
+.valores{
+    background-color: var(--cor4);
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.valores> h2{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.valores > h3{
+    padding-bottom: 10px;
+}
+
+.valores > p{
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#txtarea{
+    border-radius: 40px;
+    height: 30px;
+    width: 200px;
+}
+
+
+#cal{
+    font-weight: 600;
+    height: 30px;
+    width: 100px;
+}
+
+.mvv > h2{
+    padding-top: 30px;
+}
+
+footer{
+    background-color: var(--cor3);
+    color: white;
+    padding: 30px;
+    text-align: center;
 }
