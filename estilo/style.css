@@ -5,7 +5,7 @@
 :root{
     --cor1:#26EBAF;
     --cor2:#26EB29;
-    --cor3:#8c0500;
+    --cor3:#1565ba;
     --cor4:#166B51;
     --cor5:#18701A;
     --fonte1: 'Oswald', Arial, Helvetica, sans-serif;
@@ -167,6 +167,7 @@ section > ul{
     width: 420px;
     text-align: center;
     margin: 25px;
+    
 }
 
 .container:hover .flip{
@@ -183,12 +184,22 @@ section > ul{
 }
 
 .frente{
-    background-color: #166B51;
+    background-color: var(--cor1);
+}
+
+.frente > img{
+    width: 40px;
+    padding-top: 20px;
 }
 
 .tras{
-    background-color: bisque;
+    background-color: var(--cor3);
+    color: white;
     transform: rotateY(180deg);
+}
+
+.tras > p{
+    padding: 25px;
 }
 
 .frente,.tras{
