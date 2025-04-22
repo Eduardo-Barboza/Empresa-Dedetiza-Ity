@@ -17,7 +17,7 @@ function verificar(){
             tanimal = 'Ratos'
         } else if (animal[2].checked){
             valor =metro*0.80 + (metro*0.80*5/100) + (metro*0.80*30/100) + (metro*0.80*65/100)
-            tanimal = 'Formigass'
+            tanimal = 'Formigas'
         } else if (animal[3].checked){
             valor =metro*3.00 + (metro*3.00*5/100) + (metro*3.00*30/100) + (metro*3.00*65/100)
             tanimal = 'Escorpiãos'
@@ -28,7 +28,7 @@ function verificar(){
         m.value = '' 
         m.focus()
         res.style.textAlign = 'center'
-        res.innerHTML = `O seu pré orçamento para a dedetizaçao de ${tanimal} ficou no valor de R$ ${valor.toFixed(2).replace(".", ",")} <br/>
+        res.innerHTML = `O seu pré orçamento para a dedetização de ${tanimal} ficou no valor de R$ ${valor.toFixed(2).replace(".", ",")} <br/>
         OBS: Esta é apenas uma margem para fins de precificação simples, para mais detalhes entre em contato conosco.`
     }
 }
