@@ -28,7 +28,7 @@ function verificar(){
         m.value = '' 
         m.focus()
         res.style.textAlign = 'center'
-        res.innerHTML = `O seu pré orçamento para a dedetizaçao de ${tanimal} ficou no valor de R$ ${valor.toFixed(2)}
+        res.innerHTML = `O seu pré orçamento para a dedetizaçao de ${tanimal} ficou no valor de R$ ${valor.toFixed(2).replace(".", ",")} <br/>
         OBS: Esta é apenas uma margem para fins de precificação simples, para mais detalhes entre em contato conosco.`
     }
 }

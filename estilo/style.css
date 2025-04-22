@@ -194,7 +194,7 @@ section > ul{
     position: relative;
     display: inline-block;
     height: 150px;
-    width: 380px;
+    width: 300px;
     text-align: center;
     margin: 25px;   
 }
@@ -228,7 +228,7 @@ section > ul{
 }
 
 .tras > p{
-    padding: 25px;
+    padding: 10px;
 }
 
 .frente,.tras{
