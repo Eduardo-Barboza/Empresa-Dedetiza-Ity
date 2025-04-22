@@ -36,12 +36,13 @@ main{
 }
 
 nav{
-    padding-top: 10px;
+    padding-bottom:10px;
     background-image: linear-gradient(to left, var(--cor4),var(--cor1), var(--cor4));
 }
 
 nav > a{
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;

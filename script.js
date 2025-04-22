@@ -25,8 +25,6 @@ function verificar(){
             valor =metro*1.40 + (metro*1.40*5/100) + (metro*1.40*30/100) + (metro*1.40*65/100)
             tanimal = ' Cupims'
         }
-        m.value = '' 
-        m.focus()
         res.style.textAlign = 'center'
         res.innerHTML = `O seu pré orçamento para a dedetização de ${tanimal} ficou no valor de R$ ${valor.toFixed(2).replace(".", ",")} <br/>
         OBS: Esta é apenas uma margem para fins de precificação simples, para mais detalhes entre em contato conosco.`
