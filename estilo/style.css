@@ -255,9 +255,19 @@ section > ul{
     padding-right: 10px;
 }
 
-.localizacao > div{
-    width: 00px;
-}
+iframe {
+    min-width: 250px;
+    min-height: 250px;
+    width: 90%;
+    height: 450px;
+    border: 0;
+  }
+
+  @media (max-width: 600px) {
+    iframe {
+      height: 300px;
+    }
+  }
 
 .whatsapp > img{
     height: 50px;
